@@ -28,7 +28,8 @@ const Canvas = (props: JSX.IntrinsicAttributes & React.ClassAttributes<HTMLCanva
 
   useEffect(() => {
 
-    console.log(gRsierpinski(2))
+    var produccion:string = gRsierpinski(5);
+    
     
 
     var canvas:HTMLCanvasElement = canvasRef.current!;
