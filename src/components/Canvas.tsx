@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from 'react';
 import { createTextSpanFromBounds } from 'typescript';
-import gRsierpinski from './Gramatica';
+import gRsierpinski from '../Gramatica';
 
 var width:number=2000;
 var height:number=2000;
@@ -62,12 +62,12 @@ const Canvas = (props: JSX.IntrinsicAttributes & React.ClassAttributes<HTMLCanva
   
   useEffect(() => {
 
-    var iteraciones:number=11;
+    var iteraciones:number=8;
     
     var produccion:string = gRsierpinski(iteraciones);
     var canvas:HTMLCanvasElement = canvasRef.current!;
-    var segmento:number = 15;
-    var angulo:number = 60;
+    var segmento:number = 25;//15
+    var angulo:number = 60;//60
 
     canvas.width=width;
     canvas.height=height;
