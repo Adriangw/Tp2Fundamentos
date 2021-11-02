@@ -1,5 +1,7 @@
+
 //(A → B−A−B)
 //(B → A+B+A)
+
 const gRsierpinski = (iter:number):string => {
 
     var A:string = 'B-A-B';
