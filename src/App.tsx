@@ -7,11 +7,10 @@ import FormInputs from './components/FormInputs';
 function App() {
   return (
     <div className="App">
-      <NavBar/>
-     
-      <FormInputs/>
-   
 
+      <NavBar/>
+      <FormInputs/>
+      
     </div>
   )
 }

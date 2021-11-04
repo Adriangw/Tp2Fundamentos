@@ -1,5 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Button, Form, FormControl, Nav, Navbar, NavDropdown } from 'react-bootstrap';
+import { Nav, Navbar } from 'react-bootstrap';
 
 
 function NavBarFundamentos() {
@@ -11,9 +11,8 @@ function NavBarFundamentos() {
     <Navbar.Collapse id="basic-navbar-nav">
 
         <Nav className="mr-auto">
-        <Nav.Link href="http://www.unp.edu.ar/">UNPSJ</Nav.Link>
-        <Nav.Link href="http://www.dit.ing.unp.edu.ar/">DIT TRELEW</Nav.Link>
-       
+          <Nav.Link href="http://www.unp.edu.ar/">UNPSJ</Nav.Link>
+          <Nav.Link href="http://www.dit.ing.unp.edu.ar/">DIT TRELEW</Nav.Link>
         </Nav>
       
     </Navbar.Collapse>
